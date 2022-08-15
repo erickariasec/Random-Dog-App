@@ -148,3 +148,37 @@ body {
 .dog-favorite-content .dog-favorite-generator button:hover {
     background-color: #e04e4e;
 }
+
+@media (max-width: 795px) {
+    .dog-random-content .dog-random-generator {
+        max-width: 400px;
+    }
+    .dog-random-content .dog-random-generator button {
+        margin-right: 0;
+    }
+    .dog-favorite-content .dog-favorite-generator {
+        max-width: 400px;
+    }
+    .dog-favorite-content .dog-favorite-generator button {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 486px) {
+    .main-app-title {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 381px) {
+    .dog-random-content .dog-random-generator button {
+        width: 80px;
+        margin-right: 0px;
+        padding: 5px;
+    }
+    .dog-favorite-content .dog-favorite-generator button {
+        width: 80px;
+        margin-right: 0px;
+        padding: 5px;
+    }
+}

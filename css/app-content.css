@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Fonts */
+    --righteous-font: 'Righteous', cursive;
+    --roboto-font: 'Roboto', sans-serif;
+
+    /* Color Palette */
+    --turquoise-high: #16697a;
+    --turquoise-medium: #489fb5;
+    --turquoise-low: #82c0cc;
+    --cream: #ede7e3;
+    --yellow: #ffa62b;
+    --red: #e44040;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    background-color: var(--turquoise-low);
+    font-family: var(--roboto-font);
+}
+
+.main-app-title {
+    height: 80px;
+    background-color: var(--yellow);
+    font-size: 5rem;
+    font-family: var(--righteous-font);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-random-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dog-random-content h2 {
+    padding: 20px;
+    font-size: 3rem;
+    font-family: var(--righteous-font);
+    background-color: var(--turquoise-medium);
+    display: flex;
+    justify-content: center;
+}
+
+.button-more-dogs {
+    width: 300px;
+    margin: 0 auto 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    font-family: var(--righteous-font);
+    font-size: 2rem;
+    background-color: #eba84a;
+}
+
+.button-more-dogs:hover {
+    background-color: #f0b057;
+}
+
+.dog-random-content .dog-random-generator {
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dog-random-content .dog-random-generator img {
+    margin: 10px 0;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--turquoise-high);
+}
+
+.dog-random-content .dog-random-generator button {
+    width: 120px;
+    height: 200px;
+    margin-right: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-family: var(--righteous-font);
+    font-size: 1.6rem;
+    background-color: var(--turquoise-high);
+    color: var(--cream);
+}
+
+.dog-random-content .dog-random-generator button:hover {
+    background-color: #16697aec;
+}
+
+.dog-favorite-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.dog-favorite-content h2 {
+    padding: 20px;
+    font-size: 3rem;
+    font-family: var(--righteous-font);
+    background-color: var(--turquoise-medium);
+    display: flex;
+    justify-content: center;
+}
+
+.dog-favorite-content .dog-favorite-generator {
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dog-favorite-content .dog-favorite-generator img {
+    margin: 10px 0;
+    border-radius: 10px 0 0 10px;
+    background-color: var(--turquoise-high);
+}
+
+.dog-favorite-content .dog-favorite-generator button {
+    width: 120px;
+    height: 200px;
+    margin-right: 45px;
+    padding: 10px;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    font-family: var(--righteous-font);
+    font-size: 1.6rem;
+    background-color: var(--red);
+    color: var(--cream);
+}
+
+.dog-favorite-content .dog-favorite-generator button:hover {
+    background-color: #e04e4e;
+}
